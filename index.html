@@ -1,11 +1,593 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edgar Omar Reyes Páiz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Edgar Omar Reyes Páiz — Software Developer · C# / Unity Specialist</title>
+  <meta name="description" content="Portfolio of Edgar Omar Reyes Páiz, a software developer and engineer with 10+ years of experience in C#, Unity, desktop and interactive applications, XR, hardware integration and Linux.">
+  <meta name="author" content="Edgar Omar Reyes Páiz">
+  <meta name="theme-color" content="#0A0A0F">
+  <link rel="canonical" href="https://edgar-orp.github.io/">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Edgar Omar Reyes Páiz — Software Developer · C# / Unity Specialist">
+  <meta property="og:description" content="Software developer with 10+ years designing, building and deploying desktop, mobile, interactive, XR and hardware-integrated software.">
+  <meta property="og:url" content="https://edgar-orp.github.io/">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Edgar Omar Reyes Páiz — Software Developer · C# / Unity Specialist">
+  <meta name="twitter:description" content="Software developer with 10+ years designing, building and deploying desktop, mobile, interactive, XR and hardware-integrated software.">
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Edgar Omar Reyes Páiz",
+    "jobTitle": "Software Developer",
+    "url": "https://edgar-orp.github.io/",
+    "email": "mailto:edgar.orp@proton.me",
+    "sameAs": [
+      "https://github.com/edgar-orp",
+      "https://www.linkedin.com/in/edgar-orp/",
+      "https://xrlab.dev"
+    ]
+  }
+  </script>
 </head>
 <body>
-    <h1>Portfolio under construction</h1>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Edgar Omar Reyes Páiz — back to top">
+        <span class="brand-prompt" aria-hidden="true">&gt;_</span>
+        <span class="brand-name">edgar-orp</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#about" data-i18n="nav.about">About</a></li>
+          <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+          <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+          <li><a href="#experience" data-i18n="nav.experience">Experience</a></li>
+          <li><a href="#education" data-i18n="nav.education">Education</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- A. HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow mono"><span class="status-dot" aria-hidden="true"></span> software engineer · based in mexico</p>
+          <h1 id="hero-title">Edgar Omar<br>Reyes Páiz</h1>
+          <p class="hero-role">Software Developer · Software Engineer</p>
+          <p class="hero-specialty mono">C# / Unity Specialist</p>
+          <p class="hero-intro" data-i18n="hero.intro">
+            Software developer with 10+ years of experience designing, developing, testing and deploying software across desktop, mobile, interactive, XR and hardware-integrated environments. Strong in C#, software architecture and modular, real-time systems.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View projects</a>
+            <a class="btn btn-primary" id="cv-download" href="assets/Edgar_Omar_Reyes_Paiz_Resume.pdf" download hidden>Download CV (PDF)</a>
+            <a class="btn btn-ghost" href="#contact">Get in touch</a>
+          </div>
+          <ul class="link-row" aria-label="Profile links">
+            <li><a class="mono" href="https://github.com/edgar-orp" rel="me noopener" target="_blank">github</a></li>
+            <li><a class="mono" href="https://www.linkedin.com/in/edgar-orp/" rel="me noopener" target="_blank">linkedin</a></li>
+            <li><a class="mono" href="https://xrlab.dev" rel="me noopener" target="_blank">xrlab.dev</a></li>
+            <li><a class="mono" href="mailto:edgar.orp@proton.me">email</a></li>
+          </ul>
+        </div>
+
+        <div class="terminal" role="img" aria-label="Terminal-style summary of Edgar's profile">
+          <div class="terminal-bar" aria-hidden="true">
+            <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+            <span class="terminal-title mono">edgar@xrlab:~</span>
+          </div>
+          <pre class="terminal-body mono" aria-hidden="true" data-typewriter><span class="t-prompt">$</span> whoami
+<span class="t-out">Edgar Omar Reyes Páiz</span>
+
+<span class="t-prompt">$</span> cat role.txt
+<span class="t-out">Software Developer / Technical Lead @ xrlab.dev</span>
+
+<span class="t-prompt">$</span> cat stack.txt
+<span class="t-out"><span class="c-cyan">C#</span> · Unity · C/C++ · Python · JS · Bash</span>
+<span class="t-out">Linux · Git · APIs/SDKs · Arduino · OpenAI</span>
+
+<span class="t-prompt">$</span> cat focus.txt
+<span class="t-out">architecture · SOLID · modular systems</span>
+<span class="t-out">real-time apps · hardware integration</span>
+
+<span class="t-prompt">$</span> <span class="t-cursor">_</span></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- B. ABOUT -->
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-index mono">01 // about</p>
+          <h2 id="about-title" data-i18n="about.title">Professional profile</h2>
+        </header>
+
+        <div class="about-grid">
+          <div class="prose">
+            <p data-i18n="about.p1">
+              I design, develop, test and deploy software for desktop systems, mobile devices, kiosks, touchscreens, events and dedicated hardware, including offline-first deployments. My primary language is C#, and Unity is my main area of specialization.
+            </p>
+            <p data-i18n="about.p2">
+              My work spans the full cycle: requirements analysis, architecture, implementation, debugging, testing, integration, deployment and production troubleshooting. I favor modular architectures built on SOLID principles and separation of concerns.
+            </p>
+            <p data-i18n="about.p3">
+              Through xrlab.dev I build custom software solutions and interactive systems, and I am expanding into broader software engineering, systems, automation and technology roles.
+            </p>
+          </div>
+
+          <ul class="highlights" aria-label="Areas of strength">
+            <li class="card highlight">
+              <h3 class="mono">architecture</h3>
+              <p>Software architecture, OOP, SOLID and clean code; modular, reusable and event-driven systems.</p>
+            </li>
+            <li class="card highlight">
+              <h3 class="mono">interactive apps</h3>
+              <p>Real-time and interactive applications for desktop, mobile, kiosks, events and XR.</p>
+            </li>
+            <li class="card highlight">
+              <h3 class="mono">hardware integration</h3>
+              <p>Cameras, peripherals, Arduino, QR workflows and hardware/software interfaces, validated through testing.</p>
+            </li>
+            <li class="card highlight">
+              <h3 class="mono">linux &amp; cross-platform</h3>
+              <p>Linux environments (Arch, Fedora, Debian), terminal workflows, Windows, Android, iOS and Nintendo platforms.</p>
+            </li>
+            <li class="card highlight">
+              <h3 class="mono">ai-assisted dev</h3>
+              <p>AI-powered workflows with OpenAI and local image-generation tools such as ComfyUI, Qwen and FLUX.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- C. SKILLS -->
+    <section id="skills" class="section section-alt" aria-labelledby="skills-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-index mono">02 // skills</p>
+          <h2 id="skills-title" data-i18n="skills.title">Technical skills</h2>
+          <p class="section-lead">Grouped by discipline. Unity and C# are my primary stack; the rest reflects what I use across projects.</p>
+        </header>
+
+        <div class="skills-grid">
+          <article class="card skill-group skill-primary">
+            <h3 class="mono">Programming</h3>
+            <ul class="tags">
+              <li class="tag tag-strong">C# <small>primary</small></li>
+              <li class="tag">C / C++</li>
+              <li class="tag">JavaScript</li>
+              <li class="tag">Python</li>
+              <li class="tag">Bash</li>
+              <li class="tag">Java</li>
+            </ul>
+          </article>
+
+          <article class="card skill-group">
+            <h3 class="mono">Unity &amp; Real-Time</h3>
+            <ul class="tags">
+              <li class="tag tag-strong">Unity 2022 LTS / Unity 6</li>
+              <li class="tag">uGUI</li>
+              <li class="tag">UI Toolkit</li>
+              <li class="tag">ScriptableObjects</li>
+              <li class="tag">Custom tools &amp; plugins</li>
+              <li class="tag">Performance optimization</li>
+            </ul>
+          </article>
+
+          <article class="card skill-group">
+            <h3 class="mono">Software Engineering</h3>
+            <ul class="tags">
+              <li class="tag">Software architecture</li>
+              <li class="tag">OOP</li>
+              <li class="tag">SOLID</li>
+              <li class="tag">Clean Code</li>
+              <li class="tag">Modular design</li>
+              <li class="tag">Event-driven systems</li>
+              <li class="tag">System programming</li>
+              <li class="tag">Tool development</li>
+              <li class="tag">Debugging &amp; testing</li>
+            </ul>
+          </article>
+
+          <article class="card skill-group">
+            <h3 class="mono">Platforms &amp; Tools</h3>
+            <ul class="tags">
+              <li class="tag">Linux</li>
+              <li class="tag">Arch · Fedora · Debian</li>
+              <li class="tag">Xorg · Wayland</li>
+              <li class="tag">Windows</li>
+              <li class="tag">Android · iOS · Nintendo</li>
+              <li class="tag">Git / GitHub</li>
+              <li class="tag">.NET</li>
+            </ul>
+          </article>
+
+          <article class="card skill-group">
+            <h3 class="mono">Integration &amp; Multimedia</h3>
+            <ul class="tags">
+              <li class="tag">API / SDK integration</li>
+              <li class="tag">Arduino</li>
+              <li class="tag">SQL</li>
+              <li class="tag">Firebase</li>
+              <li class="tag">Webcams</li>
+              <li class="tag">QR workflows</li>
+              <li class="tag">FFmpeg</li>
+              <li class="tag">RenderTexture</li>
+            </ul>
+          </article>
+
+          <article class="card skill-group">
+            <h3 class="mono">XR</h3>
+            <ul class="tags">
+              <li class="tag">AR / VR / XR</li>
+              <li class="tag">WebXR</li>
+              <li class="tag">AR Foundation</li>
+              <li class="tag">ARKit · ARCore</li>
+              <li class="tag">Vuforia</li>
+              <li class="tag">SteamVR</li>
+            </ul>
+          </article>
+
+          <article class="card skill-group">
+            <h3 class="mono">AI &amp; Emerging Tech</h3>
+            <ul class="tags">
+              <li class="tag">OpenAI</li>
+              <li class="tag">ComfyUI</li>
+              <li class="tag">Qwen</li>
+              <li class="tag">FLUX</li>
+              <li class="tag">Local AI models</li>
+            </ul>
+          </article>
+
+          <article class="card skill-group">
+            <h3 class="mono">Also</h3>
+            <ul class="tags">
+              <li class="tag">Unreal Engine <small>consulting &amp; testing</small></li>
+              <li class="tag">HTML / CSS</li>
+              <li class="tag">TikTok Effect House</li>
+              <li class="tag">Meta Spark Studio</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- D. PROJECTS -->
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-index mono">03 // projects</p>
+          <h2 id="projects-title" data-i18n="projects.title">Selected projects</h2>
+          <p class="section-lead">Work where I made direct technical contributions. More case studies, screenshots and links will be added.</p>
+        </header>
+
+        <div class="project-grid">
+
+          <article class="card project featured">
+            <div class="project-media placeholder" role="img" aria-label="Screenshot placeholder for xrlab.dev">
+              <span class="mono">xrlab.dev</span>
+            </div>
+            <div class="project-body">
+              <p class="project-meta mono">2023–present · independent</p>
+              <h3>xrlab.dev</h3>
+              <p>Independent software development and interactive solutions: custom applications and real-time systems built with Unity, C# and supporting technologies.</p>
+              <h4 class="mono">role</h4>
+              <p class="role">Independent Software Developer / Technical Lead. Requirements analysis, modular architecture, development, deployment and production troubleshooting for desktop, kiosk, touchscreen, event and dedicated-hardware applications, including offline-first deployments.</p>
+              <ul class="tags tags-sm">
+                <li class="tag">Unity</li><li class="tag">C#</li><li class="tag">APIs</li><li class="tag">Hardware integration</li><li class="tag">OpenAI</li><li class="tag">ComfyUI</li>
+              </ul>
+              <p class="also mono">also: BuildYourOwnSandwich · Interactive3DViewer · Klar Photobooth · xrlab AI / Interactive AI Platform</p>
+              <a class="card-link mono" href="https://xrlab.dev" target="_blank" rel="noopener">visit xrlab.dev ↗</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-media placeholder" role="img" aria-label="Screenshot placeholder for NarraGol">
+              <span class="mono">NarraGol</span>
+            </div>
+            <div class="project-body">
+              <p class="project-meta mono">xrlab.dev</p>
+              <h3>NarraGol</h3>
+              <p>Offline interactive video application developed with Unity.</p>
+              <ul class="tags tags-sm">
+                <li class="tag">Unity</li><li class="tag">C#</li><li class="tag">Offline-first</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-media placeholder" role="img" aria-label="Screenshot placeholder for Astrodogs">
+              <span class="mono">Astrodogs</span>
+            </div>
+            <div class="project-body">
+              <p class="project-meta mono">Dynamic Media Triad · 2018–2023</p>
+              <h3>Astrodogs</h3>
+              <p>Professional game project for PC and Nintendo Switch.</p>
+              <h4 class="mono">role</h4>
+              <p class="role">UI and save system development; UI/UX systems, asset integration and optimization across platforms, using the Nintendo SDK and API for Unity.</p>
+              <ul class="tags tags-sm">
+                <li class="tag">Unity</li><li class="tag">C#</li><li class="tag">Nintendo SDK</li><li class="tag">UI/UX</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-media placeholder" role="img" aria-label="Screenshot placeholder for the EON Reality Arduino plugin">
+              <span class="mono">Unity ↔ Arduino</span>
+            </div>
+            <div class="project-body">
+              <p class="project-meta mono">EON Reality Mexico · 2018</p>
+              <h3>Unity–Arduino Integration</h3>
+              <p>Custom Unity plugin for Arduino communication, with testing and validation of hardware/software interactions.</p>
+              <h4 class="mono">role</h4>
+              <p class="role">Developed the Unity-to-Arduino communication layer and plugin; also VR gameplay, networking and UI/navigation systems.</p>
+              <ul class="tags tags-sm">
+                <li class="tag">Unity</li><li class="tag">C#</li><li class="tag">Arduino</li><li class="tag">VR</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-media placeholder" role="img" aria-label="Screenshot placeholder for BR2000">
+              <span class="mono">BR2000</span>
+            </div>
+            <div class="project-body">
+              <p class="project-meta mono">Dynamic Media Triad · 2018–2023</p>
+              <h3>BR2000</h3>
+              <p>Professional game project.</p>
+              <h4 class="mono">role</h4>
+              <p class="role">Core systems and gameplay functionality; system and gameplay programming, debugging and application integration.</p>
+              <ul class="tags tags-sm">
+                <li class="tag">Unity</li><li class="tag">C#</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-media placeholder" role="img" aria-label="Screenshot placeholder for Learn Math with El Chavo">
+              <span class="mono">Learn Math with El Chavo</span>
+            </div>
+            <div class="project-body">
+              <p class="project-meta mono">WashaWasha Games · 2016</p>
+              <h3>Learn Math with El Chavo</h3>
+              <p>Interactive game project.</p>
+              <h4 class="mono">role</h4>
+              <p class="role">Gameplay functionality, audio and interactive gameplay systems integration, plus custom tools for level and game designers.</p>
+              <ul class="tags tags-sm">
+                <li class="tag">Unity</li><li class="tag">C#</li><li class="tag">Tool development</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-media placeholder" role="img" aria-label="Screenshot placeholder for Lightsweep XR applications">
+              <span class="mono">AR / VR apps</span>
+            </div>
+            <div class="project-body">
+              <p class="project-meta mono">Lightsweep / Cinetransformer · 2017–2018</p>
+              <h3>AR / VR Applications</h3>
+              <p>AR/VR applications for HTC Vive, Oculus Rift, Samsung Gear VR and Google Cardboard, plus Android and iOS apps.</p>
+              <h4 class="mono">role</h4>
+              <p class="role">Unity development with SteamVR, Vuforia, ARKit, ARCore and AR Foundation; UX/navigation design, 3D asset integration and SQL database integration.</p>
+              <ul class="tags tags-sm">
+                <li class="tag">Unity</li><li class="tag">AR Foundation</li><li class="tag">ARKit / ARCore</li><li class="tag">SQL</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card project project-placeholder">
+            <div class="project-body">
+              <p class="project-meta mono">// reserved</p>
+              <h3>More coming soon</h3>
+              <p>Additional case studies, screenshots and links will be added here.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- E. EXPERIENCE -->
+    <section id="experience" class="section section-alt" aria-labelledby="experience-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-index mono">04 // experience</p>
+          <h2 id="experience-title" data-i18n="experience.title">Professional experience</h2>
+        </header>
+
+        <ol class="timeline">
+
+          <li class="timeline-item">
+            <div class="timeline-meta mono">
+              <span class="timeline-date">2023 – Present</span>
+              <span>Mexico</span>
+            </div>
+            <div class="card timeline-card">
+              <h3>Independent Software Developer / Technical Lead</h3>
+              <p class="company">xrlab.dev</p>
+              <ul>
+                <li>Design, develop and deploy custom software solutions, interactive applications and real-time systems using Unity, C# and supporting technologies.</li>
+                <li>Translate business and technical requirements into modular software architectures using SOLID principles and separation of concerns.</li>
+                <li>Develop applications for desktop systems, kiosks, touchscreens, events and dedicated hardware, including offline-first deployments.</li>
+                <li>Integrate APIs, external services, cameras, peripherals, QR workflows and hardware/software interfaces.</li>
+                <li>Implement and evaluate AI-powered workflows using OpenAI and local image-generation technologies, including ComfyUI, Qwen and FLUX.</li>
+                <li>Perform debugging, functional testing, hardware validation, deployment and production troubleshooting.</li>
+                <li>Manage projects from requirements analysis and technical planning through implementation and delivery.</li>
+              </ul>
+              <p class="selected mono">selected work: BuildYourOwnSandwich · Interactive3DViewer · NarraGol · Klar Photobooth · xrlab AI / Interactive AI Platform</p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-meta mono">
+              <span class="timeline-date">Aug 2018 – Oct 2023</span>
+              <span>Remote</span>
+            </div>
+            <div class="card timeline-card">
+              <h3>Unity Developer</h3>
+              <p class="company">Dynamic Media Triad</p>
+              <ul>
+                <li>Developed core systems and gameplay functionality for professional game projects including Astrodogs and BR2000.</li>
+                <li>Implemented UI/UX systems and integrated and optimized production assets across multiple platforms.</li>
+                <li>Worked with the Nintendo SDK and API for Unity and contributed to platform-specific development and optimization.</li>
+                <li>Managed GitHub repositories and collaborative development workflows.</li>
+                <li>Worked across system programming, gameplay programming, debugging and application integration.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-meta mono">
+              <span class="timeline-date">Aug 2018 – Present</span>
+              <span>Freelance</span>
+            </div>
+            <div class="card timeline-card">
+              <h3>Freelance Developer</h3>
+              <ul>
+                <li>Developed software, games, XR applications and interactive experiences using Unity and C#.</li>
+                <li>Provided technical consulting for Unity and Unreal Engine projects, including asset integration, optimization and development workflows.</li>
+                <li>Supported project planning, estimation and technical decision-making.</li>
+                <li>Developed interactive effects and node-based filters using TikTok Effect House and Meta Spark Studio.</li>
+                <li>Worked directly with clients to define requirements and deliver technical solutions.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-meta mono">
+              <span class="timeline-date">Apr 2018 – Aug 2018</span>
+              <span>Mexico</span>
+            </div>
+            <div class="card timeline-card">
+              <h3>Unity C# Developer</h3>
+              <p class="company">EON Reality Mexico</p>
+              <ul>
+                <li>Developed VR gameplay and networking systems using Unity and C#.</li>
+                <li>Implemented UI, navigation and UX functionality and integrated 3D and multimedia assets.</li>
+                <li>Developed Unity-to-Arduino communication and a custom Unity plugin for Arduino integration.</li>
+                <li>Tested and validated hardware/software interactions.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-meta mono">
+              <span class="timeline-date">Feb 2017 – Feb 2018</span>
+              <span>Mexico</span>
+            </div>
+            <div class="card timeline-card">
+              <h3>Unity XR Developer</h3>
+              <p class="company">Lightsweep / Cinetransformer</p>
+              <ul>
+                <li>Developed AR/VR applications for HTC Vive, Oculus Rift, Samsung Gear VR and Google Cardboard.</li>
+                <li>Developed Unity applications for Android and iOS using SteamVR, Vuforia, ARKit, ARCore and AR Foundation.</li>
+                <li>Designed UX/navigation and integrated and optimized 3D assets from Maya.</li>
+                <li>Integrated SQL databases with Unity and worked with photography, video and audio production.</li>
+                <li>Tested Unreal Engine VR applications.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-meta mono">
+              <span class="timeline-date">Feb 2016 – Aug 2016</span>
+              <span>Mexico</span>
+            </div>
+            <div class="card timeline-card">
+              <h3>Unity Programmer</h3>
+              <p class="company">WashaWasha Games</p>
+              <ul>
+                <li>Developed Unity systems and tools for level and game designers.</li>
+                <li>Created custom tools to improve development workflows.</li>
+                <li>Developed gameplay functionality for Learn Math with El Chavo and integrated audio and interactive gameplay systems.</li>
+              </ul>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- F. EDUCATION -->
+    <section id="education" class="section" aria-labelledby="education-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-index mono">05 // education</p>
+          <h2 id="education-title" data-i18n="education.title">Education</h2>
+        </header>
+
+        <div class="edu-grid">
+          <article class="card edu">
+            <p class="mono edu-date">2013 – 2016</p>
+            <h3>Middlesex University</h3>
+            <p>BA Interactive Animation — First Class Honours</p>
+          </article>
+          <article class="card edu">
+            <p class="mono edu-date">2011 – 2015</p>
+            <h3>SAE Institute Mexico</h3>
+            <p>Licenciatura en Diseño de Videojuegos</p>
+          </article>
+          <article class="card edu">
+            <p class="mono edu-date">languages</p>
+            <h3>Spanish · English</h3>
+            <p>Spanish — Native<br>English — Fluent</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- G. CONTACT -->
+    <section id="contact" class="section section-alt" aria-labelledby="contact-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-index mono">06 // contact</p>
+          <h2 id="contact-title" data-i18n="contact.title">Let’s talk</h2>
+          <p class="section-lead">Open to software engineering roles, systems and automation work, and custom Unity / interactive projects.</p>
+        </header>
+
+        <ul class="contact-grid">
+          <li><a class="card contact-card" href="mailto:edgar.orp@proton.me"><span class="mono">email</span><strong>edgar.orp@proton.me</strong></a></li>
+          <li><a class="card contact-card" href="https://www.linkedin.com/in/edgar-orp/" target="_blank" rel="noopener"><span class="mono">linkedin</span><strong>linkedin.com/in/edgar-orp</strong></a></li>
+          <li><a class="card contact-card" href="https://github.com/edgar-orp" target="_blank" rel="noopener"><span class="mono">github</span><strong>github.com/edgar-orp</strong></a></li>
+          <li><a class="card contact-card" href="https://xrlab.dev" target="_blank" rel="noopener"><span class="mono">website</span><strong>xrlab.dev</strong></a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="mono">© <span id="year">2026</span> Edgar Omar Reyes Páiz</p>
+      <p class="mono muted">Static site · HTML / CSS / vanilla JS</p>
+      <a class="mono" href="#top">back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
